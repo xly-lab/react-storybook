@@ -1,0 +1,26 @@
+.card {
+  height: max-content;
+  width: 400px;
+  box-sizing: border-box;
+  padding: 5px;
+  &:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    height: 46px;
+  }
+  .body {
+    height: calc(100% - 92px);
+    padding: 5px 0;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 2px;
+    box-sizing: border-box;
+    height: 46px;
+  }
+}
