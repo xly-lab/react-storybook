@@ -8,7 +8,7 @@ import { Button } from '../Button';
 import { Page } from '../Page';
 
 export default {
-  title: 'Design System/xly/Card',
+  title: 'Design System/test/Card',
   component: Card,
 } as ComponentMeta<typeof Card>;
 

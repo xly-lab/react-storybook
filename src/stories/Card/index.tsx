@@ -4,13 +4,9 @@ import styles from './index.module.scss';
 interface CardProps {
   style?: CSSProperties;
   /**
-   * How large should the button be?
-   */
-  size?: 'small' | 'medium' | 'large';
-  /**
    * 头部
    */
-  title?: React.ReactNode;
+  title: React.ReactNode;
   /**
    * 头部样式
    */
